@@ -1,0 +1,121 @@
+body {
+    margin: 2%;
+}
+.regNums{
+    margin: 6px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 40px;
+    background: #fff;
+    color: black;
+    border: black 1px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    vertical-align: center;
+    overflow: hidden;
+}
+.powerNums{
+    margin: 6px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 40px;
+    background: rgb(1, 173, 1);
+    color: #fff;
+    border: black 1px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    vertical-align: center;
+    overflow: hidden;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .regNums{
+        margin: 6px;
+        display: inline-block;
+        text-decoration: none;
+        line-height: 30px;
+        background: #fff;
+        color: black;
+        border: black 1px solid;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        vertical-align: center;
+        overflow: hidden;
+    }
+    
+    .powerNums{
+        margin: 6px;
+        display: inline-block;
+        text-decoration: none;
+        line-height: 30px;
+        background: rgb(1, 173, 1);
+        color: #fff;
+        border: black 1px solid;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        vertical-align: center;
+        overflow: hidden;
+    }
+  }
+  @media only screen 
+  and (min-device-width: 220px) 
+  and (max-device-width: 420px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .regNums{
+        margin: 2px;
+        display: inline-block;
+        text-decoration: none;
+        line-height: 30px;
+        background: #fff;
+        color: black;
+        border: black 1px solid;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        vertical-align: center;
+        overflow: hidden;
+    }
+    
+    .powerNums{
+        margin: 2px;
+        display: inline-block;
+        text-decoration: none;
+        line-height: 30px;
+        background: rgb(1, 173, 1);
+        color: #fff;
+        border: black 1px solid;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        vertical-align: center;
+        overflow: hidden;
+    }
+
+  }
+

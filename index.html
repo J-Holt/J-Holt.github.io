@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Lucky Lotto</title>
+  </head>
+  <body onload="luckyNumbers()">
+    <div class="container-fluid ">
+        <div class="container">
+            <div class="card text-center">
+                <div class="card-header bg-dark text-success fw-bolder fs-2">
+                    Lucky Lotto
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Welcome to Lucky Lotto! </h5>
+                    <p class="card-text">Click the button below to generate 5 new sets of random numbers. Good Luck!!!</p>
+                    <span id="test"></span><br>
+                    <a class="btn btn-success" onclick="luckyNumbers()">Generate Lucky Numbers</a>    
+                </div>
+                <div class="card-footer text-muted">
+                    Created by James Holt
+                </div>
+            </div>
+        </div>       
+    </div>
+    <script src="script.js"></script>   
+  </body>
+</html>
