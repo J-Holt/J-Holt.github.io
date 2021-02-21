@@ -20,4 +20,5 @@ function luckyNumbers() {
   } 
   let myPlays = plays.join(' ');
   document.getElementById('test').innerHTML = myPlays;
+  
 }
